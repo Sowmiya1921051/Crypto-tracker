@@ -1,10 +1,16 @@
 import React from 'react'
-
+import Header from './components/Header/Header'
+import Sidebar from './components/sidebar/Sidebar'
+import Main from './components/mainbar/Mainbar'
 function App() {
   return (
-    <div >
-      <h1 className='bg-yellow-300'>App</h1>
+    <div className="flex h-screen bg-gray-100">
+    <Sidebar />
+    <div className="flex-1 flex flex-col">
+      <Header />
+      <Main />
     </div>
+  </div>
   )
 }
 
