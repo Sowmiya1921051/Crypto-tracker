@@ -1,14 +1,13 @@
-import React from 'react'
+import React from 'react';
 
 function Mainbar() {
   return (
-    <div className="flex-1 p-8 ">
-      <div className="bg-black p-8 ">
-      
+    <div className="">
+      <div className="p-4 md:p-8">
+     Sowmiya
       </div>
     </div>
-   
-  )
+  );
 }
 
-export default Mainbar
+export default Mainbar;
